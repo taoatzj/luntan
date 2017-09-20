@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sss/sss.iml" filepath="$PROJECT_DIR$/sss/sss.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotest/taotest.iml" filepath="$PROJECT_DIR$/taotest/taotest.iml" />
     </modules>
   </component>
