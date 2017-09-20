@@ -45,7 +45,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/taotest/pom.xml" />
-        <option value="$PROJECT_DIR$/yetest/pom.xml" />
       </list>
     </option>
   </component>
