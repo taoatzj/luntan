@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="taotest:war">
+    <output-path>$PROJECT_DIR$/taotest/target</output-path>
+    <root id="archive" name="taotest.war">
+      <element id="artifact" artifact-name="taotest:war exploded" />
+    </root>
+  </artifact>
+</component>
