@@ -1,5 +1,8 @@
 package com.youmeek.ssm.module.user.controller;
 
+import com.tool.excel.ExcelUtils;
+import com.tool.excel.JsGridReportBase;
+import com.tool.excel.TableData;
 import com.youmeek.ssm.module.user.pojo.SysUser;
 import com.youmeek.ssm.module.user.service.SysUserService;
 import org.slf4j.Logger;
@@ -11,7 +14,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Controller
 @RequestMapping("/sysUserController")
@@ -47,8 +54,27 @@ public class SysUserController {
 		LOG.error("-----------------------------------error");
 		return new Date();
 	}
-	
 
+	@RequestMapping("/test-excel")
+    public void testExcel(HttpServletRequest request, HttpServletResponse response){
+         System.out.println("12356");
+		 String[] str=new String[1];
+		 str[0] = "aa333";
+		 List<String[]> aaa = new ArrayList<String[]>();
+		 aaa.add(str);
+		 aaa.add(str);
+		 String title = "测试";
+		 String[] hearders = new String[] {"测试header"};
+
+		 TableData td = ExcelUtils.createTableData(aaa, ExcelUtils.createTableHeader(hearders),null);
+
+		 try {
+			 JsGridReportBase report = new JsGridReportBase(request, response);
+			 report.exportToExcel(title, "admin", td);
+		  } catch (Exception e) {
+			   e.printStackTrace();
+		  }
+	}
 
 
 }
