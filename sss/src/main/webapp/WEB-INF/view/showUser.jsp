@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-1.6.1.min.js?cdntime=${cdntime}"></script>
+    <script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-1.6.4.min.js?cdntime=${cdntime}"></script>
     <script type="text/javascript">
         $(function () {
             alert("测试静态资源加载");

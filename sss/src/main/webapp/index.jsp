@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <script type="text/javascript" src="${webRoot}/js/jQuery-core/jquery-1.6.4.min.js?cdntime=${cdntime}"></script>
 </head>
 <body>
 
@@ -25,5 +26,11 @@
 
 <a href="/sysUserController/showUserToJSONById/1" target="_blank">查询用户信息并直接输出JSON数据</a>
 
+<input type="button" value="button" />
 </body>
+<script type="text/javascript">
+    $(function () {
+        alert("test");
+    });
+</script>
 </html>
