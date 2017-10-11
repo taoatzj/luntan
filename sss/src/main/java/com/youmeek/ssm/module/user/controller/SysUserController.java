@@ -57,7 +57,7 @@ public class SysUserController {
 
 	@RequestMapping("/test-excel")
     public void testExcel(HttpServletRequest request, HttpServletResponse response){
-         System.out.println("12356");
+         System.out.println("12356g");
 		 String[] str=new String[1];
 		 str[0] = "aa333";
 		 List<String[]> aaa = new ArrayList<String[]>();
