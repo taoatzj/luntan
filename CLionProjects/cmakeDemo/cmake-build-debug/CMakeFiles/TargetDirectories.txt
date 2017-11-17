@@ -1,0 +1,16 @@
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/Demo.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/test.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/install/local.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/install.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/MathFunctions.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/rebuild_cache.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/test.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/install/local.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/install.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/edit_cache.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/list_install_components.dir
+C:/luntan/CLionProjects/cmakeDemo/cmake-build-debug/math/CMakeFiles/install/strip.dir

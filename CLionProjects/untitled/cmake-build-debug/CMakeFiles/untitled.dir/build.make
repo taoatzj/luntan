@@ -80,40 +80,40 @@ CMakeFiles/untitled.dir/main.cpp.obj.provides: CMakeFiles/untitled.dir/main.cpp.
 CMakeFiles/untitled.dir/main.cpp.obj.provides.build: CMakeFiles/untitled.dir/main.cpp.obj
 
 
-CMakeFiles/untitled.dir/test.cpp.obj: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\luntan\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/test.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\test.cpp.obj -c C:\luntan\CLionProjects\untitled\test.cpp
+CMakeFiles/untitled.dir/Person.cpp.obj: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Person.cpp.obj: ../Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\luntan\CLionProjects\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Person.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\untitled.dir\Person.cpp.obj -c C:\luntan\CLionProjects\untitled\Person.cpp
 
-CMakeFiles/untitled.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/test.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\luntan\CLionProjects\untitled\test.cpp > CMakeFiles\untitled.dir\test.cpp.i
+CMakeFiles/untitled.dir/Person.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Person.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\luntan\CLionProjects\untitled\Person.cpp > CMakeFiles\untitled.dir\Person.cpp.i
 
-CMakeFiles/untitled.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/test.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\luntan\CLionProjects\untitled\test.cpp -o CMakeFiles\untitled.dir\test.cpp.s
+CMakeFiles/untitled.dir/Person.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Person.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\luntan\CLionProjects\untitled\Person.cpp -o CMakeFiles\untitled.dir\Person.cpp.s
 
-CMakeFiles/untitled.dir/test.cpp.obj.requires:
+CMakeFiles/untitled.dir/Person.cpp.obj.requires:
 
-.PHONY : CMakeFiles/untitled.dir/test.cpp.obj.requires
+.PHONY : CMakeFiles/untitled.dir/Person.cpp.obj.requires
 
-CMakeFiles/untitled.dir/test.cpp.obj.provides: CMakeFiles/untitled.dir/test.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/test.cpp.obj.provides.build
-.PHONY : CMakeFiles/untitled.dir/test.cpp.obj.provides
+CMakeFiles/untitled.dir/Person.cpp.obj.provides: CMakeFiles/untitled.dir/Person.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Person.cpp.obj.provides.build
+.PHONY : CMakeFiles/untitled.dir/Person.cpp.obj.provides
 
-CMakeFiles/untitled.dir/test.cpp.obj.provides.build: CMakeFiles/untitled.dir/test.cpp.obj
+CMakeFiles/untitled.dir/Person.cpp.obj.provides.build: CMakeFiles/untitled.dir/Person.cpp.obj
 
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.obj" \
-"CMakeFiles/untitled.dir/test.cpp.obj"
+"CMakeFiles/untitled.dir/Person.cpp.obj"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled.exe: CMakeFiles/untitled.dir/main.cpp.obj
-untitled.exe: CMakeFiles/untitled.dir/test.cpp.obj
+untitled.exe: CMakeFiles/untitled.dir/Person.cpp.obj
 untitled.exe: CMakeFiles/untitled.dir/build.make
 untitled.exe: CMakeFiles/untitled.dir/linklibs.rsp
 untitled.exe: CMakeFiles/untitled.dir/objects1.rsp
@@ -127,7 +127,7 @@ CMakeFiles/untitled.dir/build: untitled.exe
 .PHONY : CMakeFiles/untitled.dir/build
 
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/main.cpp.obj.requires
-CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/test.cpp.obj.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Person.cpp.obj.requires
 
 .PHONY : CMakeFiles/untitled.dir/requires
 

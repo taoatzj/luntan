@@ -86,13 +86,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/luntan/CLionProjects/untitled/Person.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/luntan/CLionProjects/untitled/Person.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="C:/luntan/CLionProjects/untitled/main.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="C:/luntan/CLionProjects/untitled/test.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="C:/luntan/CLionProjects/untitled/test.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="C:/luntan/CLionProjects/untitled/CMakeLists.txt">

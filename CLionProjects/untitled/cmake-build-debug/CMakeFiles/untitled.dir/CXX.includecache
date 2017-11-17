@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
+C:/luntan/CLionProjects/untitled/Person.cpp
+person.h
+C:/luntan/CLionProjects/untitled/person.h
+
 C:/luntan/CLionProjects/untitled/main.cpp
 iostream
 -
+person.h
+C:/luntan/CLionProjects/untitled/person.h
 
-C:/luntan/CLionProjects/untitled/test.cpp
+C:/luntan/CLionProjects/untitled/person.h
+iostream
+-
+string
+-
 
