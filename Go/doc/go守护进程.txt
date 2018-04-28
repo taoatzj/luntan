@@ -1,0 +1,2 @@
+https://github.com/sevlyar/go-daemon
+https://reddec.github.io/monexec/
