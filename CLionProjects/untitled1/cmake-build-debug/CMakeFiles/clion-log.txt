@@ -1,18 +1,126 @@
-"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\luntan\CLionProjects\untitled1
--- The C compiler identification is GNU 5.3.0
--- The CXX compiler identification is GNU 5.3.0
--- Check for working C compiler: C:/MinGW/bin/gcc.exe
--- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: C:/MinGW/bin/g++.exe
--- Check for working CXX compiler: C:/MinGW/bin/g++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: C:/luntan/CLionProjects/untitled1/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\luntan\CLionProjects\untitled1
+-- The C compiler identification is GNU 7.2.0
+-- The CXX compiler identification is GNU 7.2.0
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe
+-- Check for working C compiler: C:/msys64/mingw64/bin/gcc.exe -- broken
+CMake Error at C:/Program Files/JetBrains/CLion 2018.3.4/bin/cmake/win/share/cmake-3.13/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "C:/msys64/mingw64/bin/gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: C:/luntan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"C:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_f9244/fast"
+    C:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f9244.dir\build.make CMakeFiles/cmTC_f9244.dir/build
+    mingw32-make.exe[1]: Entering directory 'C:/luntan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    Building C object CMakeFiles/cmTC_f9244.dir/testCCompiler.c.obj
+    C:\msys64\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_f9244.dir\testCCompiler.c.obj   -c C:\luntan\CLionProjects\untitled1\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+    Linking C executable cmTC_f9244.exe
+    "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f9244.dir\link.txt --verbose=1
+    "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f9244.dir/objects.a
+    C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_f9244.dir/objects.a @CMakeFiles\cmTC_f9244.dir\objects1.rsp
+    C:\msys64\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f9244.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f9244.exe -Wl,--out-implib,libcmTC_f9244.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f9244.dir\linklibs.rsp
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libkernel32.a when searching for -lkernel32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libkernel32.a when searching for -lkernel32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libuser32.a when searching for -luser32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libuser32.a when searching for -luser32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libgdi32.a when searching for -lgdi32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libgdi32.a when searching for -lgdi32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libwinspool.a when searching for -lwinspool
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libwinspool.a when searching for -lwinspool
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libshell32.a when searching for -lshell32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libshell32.a when searching for -lshell32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libole32.a when searching for -lole32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libole32.a when searching for -lole32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/liboleaut32.a when searching for -loleaut32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\liboleaut32.a when searching for -loleaut32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libuuid.a when searching for -luuid
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libuuid.a when searching for -luuid
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libcomdlg32.a when searching for -lcomdlg32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libcomdlg32.a when searching for -lcomdlg32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libadvapi32.a when searching for -ladvapi32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libadvapi32.a when searching for -ladvapi32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmingw32.a when searching for -lmingw32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmingw32.a when searching for -lmingw32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmoldname.a when searching for -lmoldname
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmoldname.a when searching for -lmoldname
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmingwex.a when searching for -lmingwex
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmingwex.a when searching for -lmingwex
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmsvcrt.a when searching for -lmsvcrt
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmsvcrt.a when searching for -lmsvcrt
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libpthread.dll.a when searching for -lpthread
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libpthread.a when searching for -lpthread
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libpthread.a when searching for -lpthread
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libadvapi32.a when searching for -ladvapi32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libadvapi32.a when searching for -ladvapi32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libshell32.a when searching for -lshell32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libshell32.a when searching for -lshell32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libuser32.a when searching for -luser32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libuser32.a when searching for -luser32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libkernel32.a when searching for -lkernel32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libkernel32.a when searching for -lkernel32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmingw32.a when searching for -lmingw32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmingw32.a when searching for -lmingw32
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmoldname.a when searching for -lmoldname
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmoldname.a when searching for -lmoldname
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmingwex.a when searching for -lmingwex
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmingwex.a when searching for -lmingwex
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib/libmsvcrt.a when searching for -lmsvcrt
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: skipping incompatible C:/MinGW/lib/../lib\libmsvcrt.a when searching for -lmsvcrt
+    C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: i386 architecture of input file `C:/MinGW/lib/../lib/crt2.o' is incompatible with i386:x86-64 output
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x34): undefined reference to `_signal'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x89): undefined reference to `_signal'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0xc0): undefined reference to `_signal'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0xd9): undefined reference to `_signal'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x10b): undefined reference to `_signal'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x153): more undefined references to `_signal' follow
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x15f): undefined reference to `_fesetenv'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x17d): undefined reference to `_signal'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x199): undefined reference to `_signal'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x1b5): undefined reference to `___dyn_tls_init_callback'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x1e1): undefined reference to `_SetUnhandledExceptionFilter@4'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x1e9): undefined reference to `___cpu_features_init'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x1ee): undefined reference to `__CRT_fenv'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x1f6): undefined reference to `_fesetenv'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x200): undefined reference to `__CRT_fmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x20a): undefined reference to `__imp___iob'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x20f): undefined reference to `__fmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x21e): undefined reference to `__setmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x223): undefined reference to `__CRT_fmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x232): undefined reference to `__setmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x237): undefined reference to `__CRT_fmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x246): undefined reference to `__setmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x24b): undefined reference to `___p__fmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x251): undefined reference to `__fmode'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x258): undefined reference to `__pei386_runtime_relocator'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x260): undefined reference to `___main'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x265): undefined reference to `___p__environ'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x281): undefined reference to `_main'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x288): undefined reference to `__cexit'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x290): undefined reference to `_ExitProcess@4'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x2c3): undefined reference to `__CRT_glob'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x2d7): undefined reference to `___getmainargs'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x2ec): undefined reference to `__imp____set_app_type'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x30c): undefined reference to `__imp____set_app_type'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x322): undefined reference to `__imp__atexit'
+    C:/MinGW/lib/../lib/crt2.o:(.text+0x332): undefined reference to `__imp___onexit'
+    collect2.exe: error: ld returned 1 exit status
+    mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f9244.dir\build.make:88: cmTC_f9244.exe] Error 1
+    mingw32-make.exe[1]: Leaving directory 'C:/luntan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeTmp'
+    mingw32-make.exe: *** [Makefile:120: cmTC_f9244/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/luntan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "C:/luntan/CLionProjects/untitled1/cmake-build-debug/CMakeFiles/CMakeError.log".
